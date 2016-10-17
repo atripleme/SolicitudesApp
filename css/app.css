@@ -12,6 +12,15 @@ body {
 	top: 0;
 }
 
+#fondo-container-no-footer {
+	background-image: url('../images/slide1.jpg');
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+
 #login-container {
 	padding: 4em 0;
 	color: white;
