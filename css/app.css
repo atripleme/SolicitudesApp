@@ -44,11 +44,14 @@ body {
 }
 
 #login-container .container .header-login,
-#login-container .container .input-group,
 #login-container .container .input-group input  {
-	width: 100%;
 	margin-bottom: 15px;
 	border-radius: 4px;
+}
+
+#login-container .container .input-group {
+    width: 100%;
+    margin-bottom: 0;
 }
 
 #login-container .container .input-group-button .btn-primary {
