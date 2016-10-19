@@ -89,6 +89,16 @@ body {
 	color: white;
 }
 
+#login-container .signup-container {
+	padding: 2em;
+}
+
+#login-container .signup-container a,
+#login-container .signup-container p {
+	color: white;
+	font-size: large;
+}
+
 @media (max-width: 768px) {
 	#login-container {
 		padding: 1em;
