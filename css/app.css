@@ -49,15 +49,28 @@ body {
 	border-radius: 4px;
 }
 
+#login-container .container .loginForm h5 {
+    margin-top: 0;
+}
+
 #login-container .container .input-group {
     width: 100%;
     margin-bottom: 0;
+}
+
+#login-container .container .input-group-button {
+    text-align: right;    
+}
+
+#login-container .container .input-group-button a {
+    color: #d9d9db;    
 }
 
 #login-container .container .input-group-button .btn-primary {
 	width: 100%;
 	background-color: #2a4c5e;
 	border-color: #223e4c;
+	margin-bottom: 8px;
 }
 
 #login-container .container .input-group-button .btn-primary:hover {
@@ -99,6 +112,19 @@ body {
 	font-size: large;
 }
 
+#login-container .signup-container .form-group .form-control {
+	font-size: 16px;
+}
+
+#login-container .signup-container label {
+	font-size: medium;
+	margin-right: 10px;
+}
+
+#login-container .signup-container .separar-abajo {
+	margin-bottom: 10px;
+}
+
 @media (max-width: 768px) {
 	#login-container {
 		padding: 1em;
@@ -128,5 +154,11 @@ body {
 		color: white;
 		text-align: center;
 		font-size: 10px;
+	}
+}
+
+@media (max-width: 700px) {
+	#login-container .signup-container .form-group .margin-small {
+		margin-bottom: 15px;
 	}
 }
