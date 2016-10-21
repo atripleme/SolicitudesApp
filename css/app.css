@@ -116,6 +116,10 @@ body {
 	font-size: 16px;
 }
 
+#login-container .signup-container h1 {
+	margin-top: 0;
+}
+
 #login-container .signup-container label {
 	font-size: medium;
 	margin-right: 10px;
