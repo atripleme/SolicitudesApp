@@ -47,6 +47,7 @@ body {
 #login-container .container .input-group input  {
 	margin-bottom: 15px;
 	border-radius: 4px;
+	font-size: 21px;
 }
 
 #login-container .container .loginForm h5 {
@@ -56,6 +57,10 @@ body {
 #login-container .container .input-group {
     width: 100%;
     margin-bottom: 0;
+}
+
+#login-container .container .input-group label {
+    font-size: medium;
 }
 
 #login-container .container .input-group-button {
@@ -110,6 +115,7 @@ body {
 #login-container .signup-container p {
 	color: white;
 	font-size: large;
+	text-align: center;
 }
 
 #login-container .signup-container .form-group .form-control {

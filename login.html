@@ -35,11 +35,15 @@
               <div class="header-login">
                 <h1>Bienvenido!</h1>
               </div>
-              <form class="loginForm" action="">                
+              <form class="loginForm text-left" action="">                
                 <div class="input-group input-group-lg">
-                  <input class="form-control" type="text" name="username" placeholder="Cédula" autofocus="">
-                  <input class="form-control" type="password" name="password" placeholder="Contraseña">                  
-                </div> 
+                  <label for="id_username">Cédula:</label>
+                  <input class="form-control" type="text" name="username" autofocus="">
+                </div>
+                <div class="input-group input-group-lg"> 
+                  <label for="id_password">Contraseña:</label>
+                  <input class="form-control" type="password" name="password">                  
+                </div>
                 <div class="input-group-button">
                   <button type="submit" class="btn btn-primary btn-lg">Ingresar</button>
                   <h5><a href="#">¿Olvidaste tu contraseña?</a></h5>
