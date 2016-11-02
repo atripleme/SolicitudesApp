@@ -219,12 +219,18 @@ body {
 	font-weight: bold;
 }
 
-#bienvenida-container {
-	background-color: #dedede;
-}
-
 #bienvenida-container .container h4 {	
 	padding: 0 15px;
+}
+
+#migas-container,
+#migas-container .container .breadcrumb {
+	background-color: white;
+	margin-bottom: 0;
+}
+
+#migas-container .container .breadcrumb {
+	padding: 10px 0 10px 15px;
 }
 
 @media (max-width: 768px) {
