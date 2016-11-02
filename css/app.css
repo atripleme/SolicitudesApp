@@ -170,13 +170,16 @@ body {
     top: 0;
 }
 
-#header-container .container h1,
-#header-container .container .dropdown {
+#header-container .container h1 {
 	margin-top: 10px;
 }
 
+#header-container .container .dropdown {
+	margin-top: 18px;
+}
+
 #header-container .container a {
-	font-size: x-large;
+	font-size: larger;
     color: white;
 }
 
@@ -225,6 +228,10 @@ body {
 		color: white;
 		text-align: center;
 		font-size: 10px;
+	}
+
+	#header-container .container .dropdown-menu {
+		left: -50%;
 	}
 }
 
