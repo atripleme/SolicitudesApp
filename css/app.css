@@ -200,6 +200,7 @@ body {
 }
 
 #header-container .container .navbar-toggle {
+	color: white;
 	padding: 0;
     font-size: x-large;
     margin-bottom: 0;
