@@ -219,7 +219,7 @@ body {
 	font-weight: bold;
 }
 
-#bienvenida-container .container h4 {	
+#bienvenida-container .container h4 {
 	padding: 0 15px;
 }
 
@@ -262,7 +262,7 @@ body {
 		color: white;
 		text-align: center;
 		font-size: 10px;
-	}	
+	}
 
 	#header-container .container .dropdown-menu {
 		left: -50%;
@@ -270,10 +270,6 @@ body {
 }
 
 @media (max-width: 740px) {
-	#back-container {
-		background: #5f788e none;
-	}
-
 	#login-container .signup-container .form-group .margin-small {
 		margin-bottom: 15px;
 	}
