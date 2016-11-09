@@ -37,9 +37,7 @@
             <div class="dropdown hidden-xs">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Usuario <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#"><i class="fa fa-user"></i> Perfil</a></li>
-                <li><a href="#"><i class="fa fa-key"></i> Cambiar contraseña</a></li>
-                <li><a href="#"><i class="fa fa-sign-out"></i> Cerrar sesión</a></li>
+                <li><a href="#"><i class="fa fa-user"></i> Crear cuenta</a></li>
               </ul>
             </div>
           </div>
@@ -55,9 +53,7 @@
           <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
               <ul class="nav navbar-nav">
-                <li class="nav-item text-center"><a href="#"><i class="fa fa-user"></i> Perfil</a></li>
-                <li class="nav-item text-center"><a href="#"><i class="fa fa-key"></i> Cambiar contraseña</a></li>
-                <li class="nav-item text-center"><a href="#"><i class="fa fa-sign-out"></i> Cerrar sesión</a></li>
+                <li class="nav-item text-center"><a href="#"><i class="fa fa-user"></i> Crear cuenta</a></li>
               </ul>
             </div>            
           </div>
@@ -70,7 +66,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs">
-                  <h4>Bienvenido Mario Alejandro</h4>
+                  <h4>Bienvenido</h4>
                 </div>
             </div>
         </div>
@@ -82,6 +78,7 @@
         <div class="row">
           <div class="col-xs">
             <ol class="breadcrumb">
+              <li><a href="#">Inicio</a></li>
               <li><a href="#">Menu</a></li>
               <li class="active">Generar</li>
             </ol>
@@ -90,6 +87,55 @@
       </div>
     </section>
     <!-- /Breadcrumb -->
+
+    <!-- Datos -->
+    <section id="datos-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8 col-md-push-4">
+            <p>¿Ya tienes cuenta? <br class="hidden-md visible-xs"><a href="#">Inicia Sesión</a></p>
+            <form action="">                
+              <div class="form-group">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6">
+                    <label for="id_username">Cédula:</label>
+                    <input class="form-control" type="text" name="username" placeholder="Ej. 1846378597" autofocus="" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="row">                    
+                  <div class="col-xs-12 col-sm-6 margin-small">
+                    <label for="id_first-name">Nombres:</label>
+                    <input class="form-control" type="text" name="first-name" required>
+                  </div>
+                  <div class="col-xs-12 col-sm-6">
+                    <label for="id_last-name">Apellidos:</label>                     
+                    <input class="form-control" type="text" name="last-name" required>     
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                  <div class="input-group-button">
+                    <button type="submit" class="btn btn-primary btn-lg">Visualizar <i class="fa fa-eye"></i></button> 
+                  </div>                   
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                  <div class="input-group-button">
+                    <button type="submit" class="btn btn-danger btn-lg">Descargar <i class="fa fa-file-pdf-o"></i></button> 
+                  </div>                   
+                </div>
+              </div>                                           
+            </form>  
+          </div>
+          <div class="col-xs-12 col-md-4 col-md-pull-8">
+            lalalalalallalala
+          </div>          
+        </div>
+      </div>
+    </section>
+    <!-- /Datos -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
