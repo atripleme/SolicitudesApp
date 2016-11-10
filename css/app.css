@@ -67,7 +67,8 @@ body {
     text-align: right;
 }
 
-#login-container .container .input-group-button a {
+#login-container .container .input-group-button a,
+#login-container .container .not-found a {
     color: #d9d9db;
 }
 
@@ -93,10 +94,6 @@ body {
 	text-align: center;
 }
 
-#login-container .container .not-found a {
-	color: #d9d9db;
-}
-
 #footer-container {
 	background-color: #2a4c5e;
 	color: white;
@@ -112,13 +109,15 @@ body {
 }
 
 #login-container .signup-container a,
-#login-container .signup-container p {
+#login-container .signup-container p, {
 	text-align: center;
 	color: white;
 	font-size: large;
 }
 
-#login-container .signup-container a {
+#login-container .signup-container a,
+#login-container .container .not-found a,
+#login-container .container .input-group-button a {
 	text-decoration: underline;
 }
 
