@@ -109,7 +109,7 @@ body {
 }
 
 #login-container .signup-container a,
-#login-container .signup-container p, {
+#login-container .signup-container p {
 	text-align: center;
 	color: white;
 	font-size: large;
