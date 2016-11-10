@@ -336,6 +336,7 @@ body {
 	#solicitudes-container,
 	#datos-container {
 		margin-top: 10px;
+		padding-bottom: 10px;
 	}
 
 	#solicitudes-container .container .col-xs {
