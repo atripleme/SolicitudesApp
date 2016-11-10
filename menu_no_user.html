@@ -61,7 +61,8 @@
       </nav>      
     </div>    
     <!-- /Menu -->
-
+    
+    <!-- Bienvenida -->
     <section id="bienvenida-container">
         <div class="container">
             <div class="row">
@@ -71,6 +72,7 @@
             </div>
         </div>
     </section>
+    <!-- /Bienvenida -->
 
     <!-- Breadcrumb -->
     <section id="migas-container">
@@ -78,7 +80,7 @@
         <div class="row">
           <div class="col-xs">
             <ol class="breadcrumb">
-              <li><a href="#">Inicio</a></li>
+              <li><a href="#"><i class="fa fa-home"></i></a></li>
               <li class="active">Menu</li>
             </ol>
           </div>
@@ -86,13 +88,29 @@
       </div>
     </section>
     <!-- /Breadcrumb -->
-
-    <section id="productos-container">
+    
+    <!-- Saludo -->
+    <section id="saludo-container" class="hidden-xs">
       <div class="container">
         <div class="row">
+          <div class="col-xs">
+            <p>Accede a un mayor número de solicitudes: <a href="#">Crear Cuenta</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Saludo -->
+    
+    <!-- Solicitudes -->
+    <section id="solicitudes-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center">
+            <p>Accede a un mayor número de solicitudes: <br><a href="#">Crear Cuenta</a></p>
+          </div>          
           <!-- Filtros -->
           <div class="col-xs-12 col-sm-3">
-            <div class="list-group filtros-toggle">
+            <div class="list-group filtros-toggle hidden-sm hidden-md hidden-lg">
               <a href="#" id="filtrosToggle" class="list-group-item collapsed hidden-sm hidden-md hidden-lg" data-target="#filtros-container" data-toggle="collapse">
                 <h5 class="list-group-item-heading">Filtros <i class="fa fa-filter"></i></h5>
               </a>
@@ -117,7 +135,7 @@
           <!-- /Filtros --> 
 
           <!-- Solicitudes -->
-          <div class="col-xs-12 col-sm-7 col-sm-offset-1">
+          <div class="col-xs-12 col-sm-7 col-sm-offset-1 text-center">            
             <!-- busqueda -->
             <form>
               <div class="input-group">
@@ -131,7 +149,7 @@
               </div>
             </form>
             <!-- /busqueda -->
-            <div>
+            <div class="col-xs">
               lalala<br>
               vefvref<br>
               lalala<br>
@@ -152,6 +170,7 @@
         </div>
       </div>
     </section>
+    <!-- Solicitudes -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

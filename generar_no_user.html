@@ -61,7 +61,8 @@
       </nav>      
     </div>    
     <!-- /Menu -->
-
+    
+    <!-- Bienvenida -->
     <section id="bienvenida-container">
         <div class="container">
             <div class="row">
@@ -71,6 +72,7 @@
             </div>
         </div>
     </section>
+    <!-- /Bienvenida -->
 
     <!-- Breadcrumb -->
     <section id="migas-container">
@@ -78,7 +80,7 @@
         <div class="row">
           <div class="col-xs">
             <ol class="breadcrumb">
-              <li><a href="#">Inicio</a></li>
+              <li><a href="#"><i class="fa fa-home"></i></a></li>
               <li><a href="#">Menu</a></li>
               <li class="active">Generar</li>
             </ol>
@@ -86,20 +88,20 @@
         </div>
       </div>
     </section>
-    <!-- /Breadcrumb -->
+    <!-- /Breadcrumb -->    
 
     <!-- Datos -->
     <section id="datos-container">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-md-8 col-md-push-4">
-            <p>¿Ya tienes cuenta? <br class="hidden-md visible-xs"><a href="#">Inicia Sesión</a></p>
+          <div class="col-xs-12 col-md-7 col-md-offset-1 col-md-push-4">
+            <h4>Ingresa los siguientes datos para realizar la solicitud</h4>
             <form action="">                
               <div class="form-group">
                 <div class="row">
                   <div class="col-xs-12 col-sm-6">
                     <label for="id_username">Cédula:</label>
-                    <input class="form-control" type="text" name="username" placeholder="Ej. 1846378597" autofocus="" required>
+                    <input class="form-control" type="text" name="username" placeholder="Ej. 1846378597" maxlength="10" autofocus="" required>
                   </div>
                 </div>
               </div>
@@ -115,7 +117,7 @@
                   </div>
                 </div>
               </div>
-              <div class="row">
+              <div class="row text-center">
                 <div class="col-xs-12 col-sm-6">
                   <div class="input-group-button">
                     <button type="submit" class="btn btn-primary btn-lg">Visualizar <i class="fa fa-eye"></i></button> 
@@ -129,8 +131,11 @@
               </div>                                           
             </form>  
           </div>
-          <div class="col-xs-12 col-md-4 col-md-pull-8">
-            lalalalalallalala
+          <div class="listado-solicitudes col-xs-12 col-md-4 col-md-pull-8">
+            <div class="header-proceso">
+              <h3>Proceso</h3>
+              <h5>Tu solicitud seguirá el siguiente flujo para ser aprobada:</h5>
+            </div>
           </div>          
         </div>
       </div>

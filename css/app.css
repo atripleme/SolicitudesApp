@@ -228,6 +228,60 @@ body {
 	padding: 10px 0 10px 15px;
 }
 
+#saludo-container {
+	background-color: white;
+}
+
+#saludo-container .container .col-xs {
+	padding-left: 15px;
+}
+
+#solicitudes-container,
+#datos-container {
+	margin-top: 20px;
+}
+
+#solicitudes-container .container a.list-group-item .list-group-item-heading {
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+#solicitudes-container .container .list-group {
+	margin-bottom: 10px;
+}
+
+#solicitudes-container .container .input-group .btn.btn-solicitudes {
+	background-color: #2a4c5e;
+	color: white;
+}
+
+#solicitudes-container .container .col-xs {
+	margin-top: 20px;
+}
+
+#datos-container .container .input-group-button button {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#datos-container .container {
+	padding-right: 6em;
+	padding-left: 6em;
+}
+
+#datos-container .container h4 {
+	text-align: center;
+	margin-top: 0px;
+}
+
+#datos-container .container .listado-solicitudes {
+	font-size: 40px;
+}
+
+#datos-container .container h3 {
+	margin-top: 0px;
+}
+
 @media (max-width: 768px) {
 	#login-container {
 		padding: 1em;
@@ -265,7 +319,8 @@ body {
 }
 
 @media (max-width: 740px) {
-	#login-container .signup-container .form-group .margin-small {
+	#login-container .signup-container .form-group .margin-small,
+	#datos-container .container .form-group .margin-small {
 		margin-bottom: 15px;
 	}
 
@@ -275,5 +330,18 @@ body {
 
 	#header-container .container [class*="col-"] {
 		padding-right: 0;
+	}
+
+	#solicitudes-container,
+	#datos-container {
+		margin-top: 10px;
+	}
+
+	#solicitudes-container .container .col-xs {
+		margin-top: 10px;
+	}
+
+	#datos-container .container {
+		padding: 0px 15px 0 15px; 
 	}
 }
