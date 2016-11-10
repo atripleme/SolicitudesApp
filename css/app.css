@@ -239,6 +239,7 @@ body {
 #solicitudes-container,
 #datos-container {
 	margin-top: 20px;
+	padding-bottom: 20px;
 }
 
 #solicitudes-container .container a.list-group-item .list-group-item-heading {
